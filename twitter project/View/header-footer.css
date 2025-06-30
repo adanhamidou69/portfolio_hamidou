@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: rgba(0, 255, 255, 0.459);
+}
+
+header nav {
+    border-bottom: 3px skyblue double;
+
+}
+
+footer nav {
+    background-color: rgba(0, 255, 255, 0.459);
+    height: 150px;
+    border-top: 3px skyblue double;
+
+}
+
+#logo-site {
+    filter: drop-shadow(0px 0px 5px);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    animation: origami 1s infinite alternate;
+}
+
+@keyframes origami { 
+    0% {
+        rotate: 30deg;
+    }
+    
+}
+
+#logo-site:hover {
+    animation-play-state: paused;
+    filter: drop-shadow(0px 2px 5px blue);
+}
+
+#logo-search {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+#logo-search:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 2px 1px blue);
+
+}
+
+
+.header-dashbord {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mydiv-header {
+    width: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+.mydiv-header li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 0.8em;
+    list-style-type: none;
+    transition: 0.4s;
+    border-bottom: 1px solid white;
+}
+
+.mydiv-header li:hover {
+    translate: 0px -5px;
+    border-bottom: 5px solid cyan;
+    filter: drop-shadow(0px 2px 5px black);
+}
+.div-recherche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#recherche {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin:0px 5px;
+    width: 50%;
+    height: 30px;
+    text-align: start;
+    padding: 0px 10px;
+    outline: none;
+}
+/* Version Tablette */
+@media screen and (max-width:500px) {
+    #recherche {
+        display: none;
+    }
+    #recherche {
+        width: 40%;
+    }
+    
+}
+
+/* Partie footer */
+
+.footer-dashbord {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-dashbord div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Pannel recherche */
+.Pannelrecherche {
+    position: absolute;
+    top: 63px;
+    left: 110px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 5px );
+    border: 2px solid cyan;
+    padding: 5px;
+    width: 60%;
+    height: 100px;
+}
+
+.PannelAfficher {
+    display: block;
+}
+
+.Btnclose {
+    font-weight: bold;
+    cursor: pointer;
+    position:absolute;
+    top: 3px;
+    right: 5px;
+    background-color: rgba(255, 0, 0, 0.747);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#LesRecherche {
+    padding-right: 25px;
+}
+
+.Btnclose:hover {
+    box-shadow: 0px 0px 5px red
+}

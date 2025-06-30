@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon profil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="../View/profil_1.css">
+
+</head>
+<?php include '../View/header.php'; ?>
+
+
+
+<body>
+
+    <div id="totop"></div>
+    <a href="#totop" class="fa fa-arrow-up" id="fixedarrow"></a>
+
+
+    <div class="leftverticalmenu">
+        <a href="#" class="fa fa-twitter" id="twittericon"></a>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" id="icons"></i>Acceuil</a></li>
+            <li><a href="#"><i class="fa fa-hashtag" id="icons"></i>Explorer</a></li>
+            <li><a href="#"><i class="fa fa-bell" id="icons"></i>Notifications</a></li>
+            <li><a href="#"><i class="fa fa-envelope" id="icons"></i>Messages</a></li>
+            <li><a href="#"><i class="fa fa-bookmark" id="icons"></i>Signet</a></li>
+            <li><a href="#"><i class="fa fa-list-alt" id="icons"></i>Listes</a></li>
+            <li><a href="twitterprofile.html"><img src="https://res.cloudinary.com/dowrygm9b/image/upload/v1570267399/laptop-3174729_yiprzu.jpg" alt="profile"
+                        class="profileimage">Profile</a></li>
+            <li><a href="#"><i class="fa fa-align-center" id="icons"></i>Plus</a></li>
+        </ul>
+        <figure> <a href="/View/tweet.php">Tweet</a> </figure>
+    </div>
+
+
+
+    <div class="flexcontainer">
+        <div class="middlecontainer">
+            <section class="headsec">
+                <i class="fa fa-arrow-left" id="fa-arrow-left"></i>
+                <div>
+                    <h3>Firstname Lastname</h2>
+                        <span>?? Tweets</span>
+                </div>
+            </section>
+            <section class="twitterprofile">
+                <div class="headerprofileimage">
+
+                    <a href="../Model/edit_profil.php">
+                        <div class="editprofile">Editer le profil</div>
+                    </a>
+                </div>
+                <div class="bio">
+                    <div class="handle">
+                        <h3>Firstname Lastname</h3>
+                        <span>username</span>
+                    </div>
+                    <p> Insérer une biographie </p>
+
+
+                    <span> <i class="fa fa-location-arrow "></i> <a href="#"> <i
+                                class="fa fa-external-link" aria-hidden="true"></i> </a> <i
+                            class="fa fa-birthday-cake" aria-hidden="true"></i> Insérer une date </span>
+                    <br> <span><i class="fa fa-calendar"></i> (Ici sera inséré la date d'inscription au site) </span>
+                    <div class="nawa">
+                        <div class="followers"> ?? <span>Abonnements</span></div>
+                        <div>??<span> Abonné(e)s</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tweets">
+                <div class="heading">
+                    <p>Tweets</p>
+                    <p>Tweets et réponses et retweets</p>
+                    <p>Media</p>
+                    <p>Likes</p>
+                </div>
+            </section>
+            <section class="mytweets">
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="avi" class="avi"></div>
+                <div class="tweetbody">
+                    <div>Firstname Lastname @username</div>
+                    <div class="tweetcontent">Ici sera stocké le contenu du tweet.</div>
+                    <ul class="retweeticons">
+                        <i class="fa fa-comment" aria-hidden="true"></i>
+                        <i class="fa fa-retweet" aria-hidden="true"></i>
+                        <i class="fa fa-loveseat"></i>
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+
+
+        <div class="rightcontainer">
+            <section class="searchbar">
+                <div class="searchicon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                <input type="text" name="search" id="searchbox" placeholder="Search Twitter">
+            </section>
+
+            <section class="twittermedia">
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+                <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Epitech_Official_Logo.png/800px-Epitech_Official_Logo.png" alt="media1"></div>
+            </section>
+
+            <section class="nigeriatrends">
+                <div class="headertrends">
+                    <h2>Nigeria Trends</h2>
+                    <i class="fa fa-cog" id="fa-cog"></i>
+                </div>
+
+                <div class="trending"> ITAFRA</div>
+                <div class="hashtag"> #ITAFRA</div>
+                <a href="https://x.com/search?q=%23ITAFRA&src=trend_click&vertical=trends">Clique pour voir</a>
+                <div class="trenditem">
+                    <div class="trending"> Doku</div>
+                    <div class="hashtag"> #Doku</div>
+                    <a href="https://x.com/search?q=Doku&src=trend_click&vertical=trends">Clique pour voir</a>
+                    <div class="trenditem">
+                        <div class="trending"> MCILIV</div>
+                        <div class="hashtag"> #MCILIV</div>
+                        <a href="https://x.com/search?q=%23MCILIV&src=trend_click&vertical=trends">Clique pour voir</a>
+                        <div class="trenditem">
+                            <div class="trending"> "De Bruyne"</div>
+                            <div class="hashtag"> #DeBruyne</div>
+                            <a href="https://x.com/search?q=%22De%20Bruyne%22&src=trend_click&vertical=trends">Clique pour voir</a>
+                        </div>
+
+                    </div>
+                    <div class="showmore">
+                        <a href="#" style="padding: 25px; color: royalblue;">Voir plus</a>
+                    </div>
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

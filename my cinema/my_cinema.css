@@ -1,0 +1,134 @@
+body{
+    background-image:url;
+    #titre{
+        font-size: 30px;
+        color: orange;
+       
+       
+        font-style:normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial;
+        
+        padding: 60px;
+        text-align: center;
+        background-image:url("header_cinema.webp");}
+
+   
+    .barre_recherche {
+      overflow: hidden;
+      background-color: #FFC;
+      font-family:'Ubuntu';}
+    
+  
+    .barre_recherche a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+   
+    .barre_recherche a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+   
+    .barre_recherche input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+    
+
+      .barre_recherche input[type=text] {
+        border: 1px solid #ccc;
+      }
+    
+      #a_colorier
+      {
+      background-color:   #FFC; }
+      
+      #a_colorier2
+      {
+      background-color:   #FFC; 
+      
+
+
+
+      #display_flex{
+
+        display: flex;
+
+      }
+
+    
+      
+      #register{
+        font-family: 'Ubuntu';
+        font-size: larger;
+      }
+    
+    }
+
+
+    #Id{   
+    
+    
+    }
+    #Title{
+    
+        
+    }
+    #Director{
+    
+        
+    }
+           
+
+    table{
+        border : 2px solid black;
+        background-color: #FFC;
+        
+
+    }
+    tr{
+        width: 100%;
+    }
+
+    th{
+        border-bottom: 5px solid #000;
+        text-align: center;
+    
+         
+    }
+
+    td{
+        border-bottom: 2px solid #666;
+        padding: 7px;
+        
+    }
+
+
+    table{
+
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: left;
+
+    }
+
+
+
+}

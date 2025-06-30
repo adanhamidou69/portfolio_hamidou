@@ -1,0 +1,45 @@
+Se documenter
+
+les bases de symphony
+les bases de laravel
+
+• PHP – POO
+doc fr
+doc angl
+vid fr 
+vid angl
+
+• .htaccess
+doc fr
+doc angl
+vid fr 
+vid angl
+
+
+• Framework MVC
+doc fr
+doc angl
+vid fr 
+vid angl
+
+
+• ORM
+doc fr
+doc angl
+vid fr 
+vid angl
+
+
+• Requêtes HTTP
+doc fr
+doc angl
+vid fr 
+vid angl
+
+
+• Moteur de template
+doc fr
+doc angl
+vid fr 
+vid angl
+

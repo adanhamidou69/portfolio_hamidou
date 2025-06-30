@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    
+}
+
+.tweet-box {
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+#tweet {
+    border: 3px solid skyblue;
+    padding: 30px 35px;
+    border-radius: 10px;
+    -moz-outline-radius: 10px;
+    max-width: 400px;
+    width: 50vw;
+}
+
+.Tweet_ON{
+    list-style-type: none;
+    
+}
+
+#myNewTweet {
+    
+}
+
+
+
+.tweet-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border-bottom: 2px double skyblue ;
+    padding-bottom: 5px;
+    
+}
+
+.tweet-icon-name {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding: 5px;
+}
+
+.name-user {
+    color: black;
+}
+
+.limited {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.tweet-box-text {
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.tweet-box-text::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.message-editable {
+    outline: none;
+    color: black;
+    font-size: 100%;
+    height: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    z-index: 1;
+
+}
+
+.placeholder {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0.5px;
+    font-size: 130%;
+    color: gray;
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.counter-limit {
+    border-right:1px black solid ;
+    padding-right: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+#annonce {
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 20px;
+
+
+}
+
+#publier {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:8px ;
+    transition: 0.4s;
+    padding-left: 5px;
+}
+
+.pub {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.pub:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px black;
+}
+
+.off {
+    background-color: red;
+    opacity: 20%;
+    cursor: default;
+}
+
+
+
+#imagesicon {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+#imagesicon:hover  {
+    filter: drop-shadow(0px 0px 5px black);
+    transform:scale(1.2);
+}
+
+.message-tweet {
+    margin-top: 10px;
+    border: 2px red solid;
+}
+
+.message {
+    color: black;
+}
+
+.rad {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.suprimer {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.PartUser {
+    border-bottom: 1px solid skyblue;
+}
+
+.BoxNewdivTweet {
+    margin: 5px 0px;
+    border: 3px solid skyblue;
+    padding: 30px 35px;
+    border-radius: 10px;
+    -moz-outline-radius: 10px;
+    max-width: 400px;
+    width: 50vw;    
+}
